@@ -30,6 +30,7 @@ def solution(n, road, k):
             su.append([index, b])
             starts.append(index)
             answer += 1
+            //answer++ 대신 리스트에 해당 마을을 넣어서 중복값 관리
 
     while starts:
         for a in starts:
@@ -42,6 +43,7 @@ def solution(n, road, k):
                             su.append([index_2, c + b[1]])
                             starts.append(index_2)
                             answer += 1
+                            //answer++ 대신 리스트에 해당 마을을 넣어서 중복값 관리
             starts.remove(a)
 
     return answer
