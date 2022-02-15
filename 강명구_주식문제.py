@@ -14,5 +14,3 @@ def solution(prices):
 
 sample_price = [1, 2, 3, 2, 3]
 print(solution(sample_price))
-
-# print(sample_price[-4:])
