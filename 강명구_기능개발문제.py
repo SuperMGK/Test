@@ -17,11 +17,3 @@ def solution(progresses, speeds):
             answer.append(release)
 
     return answer
-
-sample_progresses1 = [93, 30, 55]
-sample_progresses2 = [95, 90, 99, 99, 80, 99]
-sample_speed1 = [1, 30, 5]
-sample_speed2 = [1, 1, 1, 1, 1, 1]
-
-print(solution(sample_progresses1, sample_speed1))
-print(solution(sample_progresses2, sample_speed2))
